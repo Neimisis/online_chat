@@ -4,8 +4,6 @@
 
 <p><b>Назначение:</b> Изучение основ работы с WebSocket`ом</p>
 
-<p><b>Репозиторий:</b> <a href="https://github.com/Neimisis/online_chat.git">смотерть</a></p>
-
 <br>
 
 <h1>Стек</h1>
@@ -27,11 +25,11 @@
 <h1>Инструкция по установке</h1>
 
 <ol>
-  <li>Создаем папку (например: online_chat) для проекта и переходим в нее: <b>mkdir online_chat; cd online_chat</b></li>
+  <li>Создаем папку (например: online_chat) для проекта и переходим в нее: <code>mkdir online_chat; cd online_chat</code></li>
   <li>Клонируем приложение в текущую директорию: <code>git clone https://github.com/Neimisis/online_chat.git .</code></li>
-  <li>Установливаем зависимости серверной части командой: <code>cd server; npm i</code></li>
+  <li>Устанавливаем зависимости серверной части командой: <code>cd server; npm i</code></li>
   <li>Запускаем сервер-backend: <code>npm start</code></li>
   <li>Переходим в директорию клиентской части и устанавливаем зависимости клиентской части: <code>cd ..; cd client; npm i</code></li>
   <li>Запускаем сервер-client: <code>npm start</code></li>
-  <li>Открываем 2-е вкладки по адресу: <b>http://localhost:3000</b> и заводим под 2 пользователями в единую комнату (например: 1)</li>
+  <li>Открываем 2-е вкладки по адресу: <b>http://localhost:3000</b> и заходим под 2-мя пользователями в единую комнату (например: 1)</li>
 </ol>
